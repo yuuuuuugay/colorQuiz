@@ -1,0 +1,61 @@
+.quizArea{
+    width: 90vw;
+    margin: 0 auto;
+}
+.answer{
+    font-size: 60px;
+    font-family: "Noto Sans", sans-serif;
+    color: #707070;
+    text-align: center;
+    margin: 100px 0 30px;
+}
+.heartArea{
+    font-size: 28px;
+    text-align: center;
+}
+.fa-heart{
+    color: #ff0000;
+    transition: .5s;
+}
+.colorArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto 100px;
+}
+.color{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: .5s;
+}
+.color:hover{
+    transform: scale(1.1,1.1);
+}
+.win, .lose{
+    opacity: 0;
+    display: none;
+}
+.resultText{
+    font-size: 32px;
+    text-align: center;
+    color: #707070;
+    margin: 20px 0 20px;
+}
+.button{
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    background-color: #707070;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    transition: .5s;
+}
+.button:hover{
+    transform: scale(1.1,1.1);
+}
