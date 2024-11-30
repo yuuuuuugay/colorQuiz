@@ -63,7 +63,6 @@ window.addEventListener('load' , () => {
                 selectColor = '#' + toHexColor(selectColor);
                 //正解の場合
                 if(selectColor == answerColorCode){
-                    selectColor = toHexColor(color.style.backgroundColor);
                     resultanimate(win);
                     opacityAnimation(colors);
                 //不正解の場合
@@ -115,7 +114,8 @@ function resultanimate(resurt) {
 //不要問題消去
 function opacityAnimation(colors){
     colors.forEach(color => {
-        if(selectColor != answerColorCode){
+        let otherColor = '#' + toHexColor(color.style.backgroundColor);
+        if(otherColor != answerColorCode){
             color.style.opacity = '0';
         }
     })
