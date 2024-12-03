@@ -31,7 +31,7 @@ window.addEventListener('load' , () => {
     const random = Math.floor(Math.random() * dificulty);
     //クエリの数分問題作成
     for(let i = 0 ; i < dificulty ; i++){
-        randomColorCode = '#';
+        let randomColorCode = '#';
         //一つづつカラーコード作成
         for(let i = 0 ; i < 6 ; i++){
             randomColorCode += colorCodeNum[Math.floor(Math.random() * 16)];
