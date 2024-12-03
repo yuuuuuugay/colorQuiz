@@ -6,8 +6,6 @@ let answerColorCode = '#';
 const colorArea = document.querySelector('#colorArea');
 //カラーコードランダム用
 const colorCodeNum = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
-//ランダムカラーコード
-let randomColorCode = '#';
 //難易度
 let dificulty = Number(window.location.search.slice(1));
 //ハート
