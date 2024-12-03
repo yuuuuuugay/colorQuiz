@@ -67,7 +67,6 @@ window.addEventListener('load' , () => {
                     opacityAnimation(colors);
                 //不正解の場合
                 }else{
-                    selectColor = toHexColor(color.style.backgroundColor);
                     count--;
                     color.style.opacity = '0';
                     if(count < 0){
