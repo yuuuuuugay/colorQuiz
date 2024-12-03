@@ -16,7 +16,8 @@ let count = hearts.length;
 const win = document.querySelector('#win');
 //失敗
 const lose = document.querySelector('#lose');
-let url =window.location.href.substr(0, window.location.href.indexOf('?'))
+//クエリ以外のURL
+let url =window.location.href.substr(0, window.location.href.indexOf('?'));
 
 
 
