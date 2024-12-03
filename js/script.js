@@ -94,7 +94,7 @@ function toHexColor(c){
 //16進変換
 function toHex(n) {
     var x = Number(n).toString(16);
-    return n.length == 1 ? "0" + x : x;
+    return x.length == 1 ? "0" + x : x;
 }
 
 
